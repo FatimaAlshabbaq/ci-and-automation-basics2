@@ -3,7 +3,7 @@
 def add_to_cart(cart, item):
     """
     Adds an item to the cart.
-    Item should be a dictionary with 'name' and 'price' keys.
+    Item should be a dictionary with 'name' and price keys.
     """
     if not isinstance(item, dict) or 'name' not in item or 'price' not in item:
         raise ValueError("Item must be a dict with 'name' and 'price'.")
