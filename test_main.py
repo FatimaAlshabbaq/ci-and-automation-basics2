@@ -1,5 +1,3 @@
-# test_main.py
-
 import pytest
 from main import add_to_cart, calculate_cart_total, apply_shipping, apply_payment_fee
 
